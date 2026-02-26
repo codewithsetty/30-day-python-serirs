@@ -1,0 +1,9 @@
+#Fibonacci Series : It is a sequence of numbers where each number is the sum of the previous two numbers.
+#Ex : 0,1,1,2,3,5,8,13, ...
+
+n=int(input("Enter no of terms:"))
+a,b=0,1
+for i in range(n):
+    print(a)
+    a,b=b,a+b
+    
