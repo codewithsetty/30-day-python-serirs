@@ -1,0 +1,7 @@
+#ASCII : ASCII stands for American Standard Code for Information Interchange,and it assigns a unique number to every character
+
+char = input("Enter a character: ")
+
+ascii_value = ord(char)
+
+print("ASCII value of", char, "is", ascii_value)
